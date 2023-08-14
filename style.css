@@ -1,0 +1,384 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    font-size: 10px;
+}
+nav{
+    background-color:darkmagenta;
+    height:20rem;
+    width:100%;
+    display: flex;
+    align-items: center;
+
+}
+#circle{
+    background:url("./house.jpeg") no-repeat;
+    background-size: cover;
+    margin:2rem;
+    height: 15rem;
+    width: 27rem;
+    border-radius: 20rem;
+    margin-left: 5rem;
+}
+ nav h1{
+    font-size: 7rem;
+    font-weight:bold;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-left: 35rem;
+    text-decoration: none;
+
+
+}
+nav ul li{
+    padding: 3rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    background-color: rgb(233, 14, 14);
+    border-radius: 3rem;
+}
+.container1{
+    background: url("./make.jpg") no-repeat;
+    background-size: cover;
+    height:150vh;
+    width:100%;
+   
+
+}
+.container1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-size: 6rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+#text{
+   display: flex; 
+   justify-content: center;
+   font-size: 3rem;
+   font-weight: 800;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#head1 h1{
+    display: flex;
+    justify-content: center;
+    padding-top:4rem;
+    font-size: 5rem;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px,1fr));
+    grid-gap:8rem;
+    margin-top:8rem;
+    margin-left: 20rem;
+    margin-bottom: 8rem;
+    
+    
+    
+
+}
+#cement{
+   
+    background: url("./cement.jpeg") no-repeat;
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+}
+#badarpur{
+   
+    background: url("./Badarpur.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+   
+
+}
+#tank{
+   
+    background: url("./water\ tank.jpeg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+   
+
+}
+#rod{
+   
+    background: url("./Iron\ rod.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+    
+    
+}
+#gate{
+   
+    background: url("./Gater.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+   
+
+}
+#bricks{
+   
+    background: url("./bricks.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+#plywood{
+   
+    background: url("./plywood.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+#tiles{
+   
+    background: url("./tiles.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+   
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+#pathar{
+   
+    background: url("./patiya.jpg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+  
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+#tvs{
+   
+    background: url("./tvs.jpeg");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+#honda{
+   
+    background: url("./honda.webp");
+    background-size: cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+#mobile{
+   
+    background: url("./samsung.jpeg") no-repeat;
+    background-size:cover;
+    height:23rem;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.2rem;
+    border:.2rem solid black;
+    align-items:flex-end;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+
+}
+footer{
+    align-items: center;
+    background: black;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+footer ul{
+    list-style-type: none;
+}
+ul li{
+    color:rgb(143, 31, 31);
+    font-size: 2rem;
+}
+
+li h2{
+    color:white;
+    padding-bottom: .8rem;
+    font-size: 2.5rem;
+}
+#location{
+    display: flex;
+}
+
+#go:hover{
+   transform: scale(1.5);
+   z-index: 2;
+   color: black;
+}
+#ig:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+
+
+
+
+@media(max-width:2100px ){
+    html{
+        font-size: 55%;
+    }
+
+   
+}
+
+
+@media(max-width:1800px){
+    html{
+        font-size: 35%;
+
+    }
+    
+   
+}
+
+@media(max-width:1160px){
+    html{
+        font-size: 30%;
+    }
+   
+}
+
+@media(max-width:1000px){
+    html{
+        font-size: 20%;
+    }
+   
+}
+
+
+@media(max-width:810px){
+    html{
+        font-size: 15%;
+    }
+   
+}
+@media(max-width:540px){
+    html{
+        font-size: 10%;
+    }
+   
+}
+@media(max-width:340px){
+    html{
+        font-size: 5%;
+    }
+   
+}
+
+ @media screen and (max-width:800px){
+
+.container2 {
+        
+    grid-template-columns:repeat(auto-fit, minmax(100px,1fr));
+}
+} 
+ 
+
+
+
